@@ -6,6 +6,7 @@ function buttonSave() {
     ++numberWords
     document.getElementById('in').value = '';
 }
+
 function searchWords() {
     let search = document.getElementById("in").value;  
     document.getElementById('in').value = '';  
